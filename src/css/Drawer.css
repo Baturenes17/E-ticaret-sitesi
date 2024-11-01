@@ -1,0 +1,30 @@
+.drawer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    position: fixed;
+    width: 650px;
+    height: 70px;
+    border-top: 1px solid rgb(109, 109, 109);
+}
+
+.cleanBasket {
+    border: none;
+    border-radius: 50px;
+    margin: 20px 10px;
+    height: 40px;
+    width: 100px;
+}
+
+.cleanBasket:hover {
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    transition: all 200ms;
+}
+
+.trash-icon:hover {
+    color: red;
+    transition: all 200ms;
+}

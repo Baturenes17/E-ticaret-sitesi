@@ -1,0 +1,84 @@
+.image-product {
+    width: 220px;
+    height: 300px;
+}
+
+.product-card {
+    width: 250px;
+    height: 600px;
+    margin: 15px;
+    box-shadow: 1px 4px 10px lightgray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-card:hover {
+    box-shadow: 1px 4px 10px rgb(97, 95, 95);
+    transition: all 200ms;
+}
+
+.button-product-detail {
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.button-product-detail:hover {
+    background-color: orange;
+    transition: all 200ms;
+    cursor: pointer;
+}
+
+.product-detail-image {
+    width: 400px;
+    height: auto;
+}
+
+.product-detail-main {
+    margin-top: 50px;
+}
+
+.product-detail-price {
+    font-size: 50px;
+    color: rgb(220, 16, 16);
+}
+
+.plus-icon {
+    font-size: 40px;
+}
+
+.plus-icon:hover {
+    cursor: pointer;
+}
+
+.minus-icon {
+    font-size: 40px;
+}
+
+.minus-icon:hover {
+    cursor: pointer;
+}
+
+.product-detail-count {
+    font-size: 30px;
+    margin: 0px 10px;
+}
+
+.add-basket-div {
+    margin-top: 20px;
+}
+
+.add-basket-button {
+    width: 110px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(232, 171, 59);
+}
+
+.add-basket-button:hover {
+    cursor: pointer;
+}
